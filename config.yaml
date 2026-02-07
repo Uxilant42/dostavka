@@ -1,0 +1,17 @@
+bot:
+  token: "YOUR_BOT_TOKEN"
+  admin_ids: [123456789, 987654321]
+
+delivery:
+  min_order_amount: 500
+  free_delivery_from: 1500
+  delivery_cost: 200
+  working_hours:
+    start: "10:00"
+    end: "23:00"
+
+payment:
+  methods:
+    - cash
+    - card_on_delivery
+    - online

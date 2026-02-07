@@ -1,0 +1,27 @@
+promocodes:
+  - code: "FIRST10"
+    discount_percent: 10
+    discount_fixed: null
+    min_order: 500
+    max_uses: 100
+    current_uses: 0
+    expiry_date: "2026-12-31"
+    active: true
+    
+  - code: "SUSHI2026"
+    discount_percent: null
+    discount_fixed: 200
+    min_order: 1000
+    max_uses: null
+    current_uses: 0
+    expiry_date: "2026-06-01"
+    active: true
+
+  - code: "VIP20"
+    discount_percent: 20
+    discount_fixed: null
+    min_order: 2000
+    max_uses: 50
+    current_uses: 0
+    expiry_date: "2026-12-31"
+    active: true

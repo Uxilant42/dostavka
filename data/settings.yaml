@@ -1,0 +1,16 @@
+restaurant:
+  name: "Суши Экспресс"
+  description: "Свежие суши с быстрой доставкой"
+  phone: "+79001234567"
+  email: "info@sushiexpress.ru"
+  address: "Москва, ул. Пушкина, д. 10"
+  
+notifications:
+  new_order: true
+  status_updates: true
+  promotions: true
+  
+statistics:
+  total_orders: 0
+  total_revenue: 0
+  average_order: 0

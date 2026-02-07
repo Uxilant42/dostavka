@@ -1,0 +1,131 @@
+categories:
+  - id: 1
+    name: "Роллы"
+    emoji: "🍣"
+  - id: 2
+    name: "Сеты"
+    emoji: "🍱"
+  - id: 3
+    name: "Напитки"
+    emoji: "🥤"
+  - id: 4
+    name: "Соусы"
+    emoji: "🥢"
+
+products:
+  - id: 1
+    name: "Филадельфия"
+    description: "Лосось, сливочный сыр, огурец"
+    price: 450
+    category_id: 1
+    image: "philadelphia.jpg"
+    available: true
+    weight: "240г"
+    
+  - id: 2
+    name: "Калифорния"
+    description: "Краб, авокадо, огурец, тобико"
+    price: 380
+    category_id: 1
+    image: "california.jpg"
+    available: true
+    weight: "220г"
+
+  - id: 3
+    name: "Дракон"
+    description: "Угорь, огурец, авокадо, соус унаги"
+    price: 520
+    category_id: 1
+    image: "dragon.jpg"
+    available: true
+    weight: "280г"
+
+  - id: 4
+    name: "Спайси лосось"
+    description: "Лосось, спайси соус, огурец"
+    price: 390
+    category_id: 1
+    image: "spicy_salmon.jpg"
+    available: true
+    weight: "230г"
+    
+  - id: 5
+    name: "Сет на двоих"
+    description: "24 ролла ассорти: Филадельфия, Калифорния, Дракон"
+    price: 1200
+    category_id: 2
+    image: "set2.jpg"
+    available: true
+    weight: "800г"
+
+  - id: 6
+    name: "Сет Премиум"
+    description: "32 ролла: Филадельфия, Дракон, Спайси лосось, Калифорния"
+    price: 1800
+    category_id: 2
+    image: "set_premium.jpg"
+    available: true
+    weight: "1100г"
+
+  - id: 7
+    name: "Семейный сет"
+    description: "48 роллов для большой компании"
+    price: 2500
+    category_id: 2
+    image: "set_family.jpg"
+    available: true
+    weight: "1600г"
+    
+  - id: 8
+    name: "Кока-Кола"
+    description: "0.5л"
+    price: 80
+    category_id: 3
+    image: "cola.jpg"
+    available: true
+    weight: "500мл"
+
+  - id: 9
+    name: "Спрайт"
+    description: "0.5л"
+    price: 80
+    category_id: 3
+    image: "sprite.jpg"
+    available: true
+    weight: "500мл"
+
+  - id: 10
+    name: "Зелёный чай"
+    description: "Японский зелёный чай"
+    price: 120
+    category_id: 3
+    image: "green_tea.jpg"
+    available: true
+    weight: "400мл"
+    
+  - id: 11
+    name: "Соевый соус"
+    description: "Классический"
+    price: 20
+    category_id: 4
+    image: "soy.jpg"
+    available: true
+    weight: "50мл"
+
+  - id: 12
+    name: "Имбирь"
+    description: "Маринованный имбирь"
+    price: 30
+    category_id: 4
+    image: "ginger.jpg"
+    available: true
+    weight: "30г"
+
+  - id: 13
+    name: "Васаби"
+    description: "Острый японский хрен"
+    price: 25
+    category_id: 4
+    image: "wasabi.jpg"
+    available: true
+    weight: "20г"
