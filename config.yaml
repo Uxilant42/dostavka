@@ -1,6 +1,6 @@
 bot:
-  token: "YOUR_BOT_TOKEN"
-  admin_ids: [123456789, 987654321]
+  token: "8397314478:AAHNXh-vLJh0IlTNHiOVl3dMwB1HgMIpSVw"
+  admin_ids: [1063802362]
 
 delivery:
   min_order_amount: 500
