@@ -471,6 +471,7 @@ async def change_address_callback(update: Update, context: ContextTypes.DEFAULT_
             reply_markup=get_saved_addresses_keyboard(addresses),
             parse_mode='Markdown'
         )
+        return ConversationHandler.END
     else:
         await query.edit_message_text(
             "📍 Введите адрес доставки:",
@@ -1023,7 +1024,8 @@ def get_user_handlers() -> list:
     conv_handler = ConversationHandler(
         entry_points=[
             CallbackQueryHandler(new_address_callback, pattern="^new_address$"),
-            CallbackQueryHandler(apply_promocode_callback, pattern="^apply_promocode$")
+            CallbackQueryHandler(apply_promocode_callback, pattern="^apply_promocode$"),
+            CallbackQueryHandler(change_address_callback, pattern="^change_address$")
         ],
         states={
             WAITING_ADDRESS: [
@@ -1063,7 +1065,7 @@ def get_user_handlers() -> list:
         CallbackQueryHandler(clear_cart_callback, pattern="^clear_cart$"),
         
         CallbackQueryHandler(checkout_callback, pattern="^checkout$"),
-        CallbackQueryHandler(change_address_callback, pattern="^change_address$"),
+        # Change address moved to conversation handler
         CallbackQueryHandler(use_address_callback, pattern="^use_address_"),
         CallbackQueryHandler(confirm_order_callback, pattern="^confirm_order$"),
         CallbackQueryHandler(payment_method_callback, pattern="^pay_(cash|card_on_delivery|online)$"),
